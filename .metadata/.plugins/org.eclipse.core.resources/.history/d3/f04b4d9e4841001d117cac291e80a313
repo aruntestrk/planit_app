@@ -1,0 +1,6 @@
+#WebDriverManager Resolution Cache (relationship between browsers and drivers versions previously resolved)
+#Sat Oct 01 14:57:09 AEST 2022
+chrome105-ttl=14\:57\:09 02/10/2022 AEST
+chrome=105
+chrome-ttl=15\:57\:09 01/10/2022 AEST
+chrome105=105.0.5195.52
