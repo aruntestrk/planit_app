@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-01T14:00:44 AEST" name="Suite1" finished-at="2022-10-01T14:00:55 AEST" duration-ms="10546">
+    <groups>
+    </groups>
+    <test started-at="2022-10-01T14:00:44 AEST" name="Chrome" finished-at="2022-10-01T14:00:55 AEST" duration-ms="10546">
+      <class name="com.planit.selenium.tests.JupiterShoppingCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@6c80d78a]" started-at="2022-10-01T14:00:44 AEST" name="startDriver" finished-at="2022-10-01T14:00:50 AEST" duration-ms="5734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@6c80d78a]" started-at="2022-10-01T14:00:50 AEST" name="shoppingCartTest" data-provider="productsData" finished-at="2022-10-01T14:00:55 AEST" duration-ms="4384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[com.planit.selenium.pojos.Product@19514281, com.planit.selenium.pojos.Product@7fb381b0, com.planit.selenium.pojos.Product@2bc3a978]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartTest -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@6c80d78a]" started-at="2022-10-01T14:00:55 AEST" name="quitDriver" finished-at="2022-10-01T14:00:55 AEST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=shoppingCartTest status=SUCCESS method=JupiterShoppingCartTest.shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@6c80d78a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.planit.selenium.tests.JupiterShoppingCartTest -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>
