@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 01 19:25:03 AEST 2022</td>
+<td>Started on:</td><td>Sat Oct 01 19:42:07 AEST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>54 seconds (54563 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103379 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,71 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@141aba65}</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of all elements [[[ChromeDriver: chrome on WINDOWS (d3ef0d9b8e1075bca85e693e808bc1d0)] -&gt; xpath: //div[@class=&apos;popup modal hide ng-scope in&apos;]]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;LAPTOP-D48PB34H&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\rarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59308/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3ef0d9b8e1075bca85e693e808bc1d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.planit.selenium.base.BasePage.waitForOverlaysToDisappear(BasePage.java:31)
+	at com.planit.selenium.pages.ContactsPage.getContactsSuccessMessage(ContactsPage.java:72)
+	at com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive(JupiterContactsTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace269414108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace269414108'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of all elements [[[ChromeDriver: chrome on WINDOWS (d3ef0d9b8e1075bca85e693e808bc1d0)] -&gt; xpath: //div[@class=&apos;popup modal hide ng-scope in&apos;]]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;LAPTOP-D48PB34H&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\rarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59308/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3ef0d9b8e1075bca85e693e808bc1d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.planit.selenium.base.BasePage.waitForOverlaysToDisappear(BasePage.java:31)
+	at com.planit.selenium.pages.ContactsPage.getContactsSuccessMessage(ContactsPage.java:72)
+	at com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive(JupiterContactsTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>33</td>
+<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,39 +140,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionE2E()'><b>contactsSubmissionE2E</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@46349b95}</td>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionE2E()'><b>contactsSubmissionE2E</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@67f77f6e}</td>
 <td></td>
 <td>7</td>
 <td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
 <tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@7161457}</td>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@168ad26f}</td>
+<td></td>
+<td>11</td>
+<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
+<tr>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@4168f3d9}</td>
+<td></td>
+<td>18</td>
+<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
+<tr>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@6bcdd6e4}</td>
 <td></td>
 <td>8</td>
 <td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
 <tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@5d05f453}</td>
+<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@141aba65}</td>
 <td></td>
-<td>7</td>
+<td>8</td>
 <td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
 <tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@6f85ee02}</td>
+<td title='com.planit.selenium.tests.JupiterShoppingCartTest.shoppingCartTest()'><b>shoppingCartTest</b><br>Test class: com.planit.selenium.tests.JupiterShoppingCartTest<br>Parameters: [com.planit.selenium.pojos.Product@1aac188d, com.planit.selenium.pojos.Product@7026b7ee, com.planit.selenium.pojos.Product@2d23faef]</td>
 <td></td>
-<td>5</td>
-<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
-<tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@458031da}</td>
-<td></td>
-<td>6</td>
-<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
-<tr>
-<td title='com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive()'><b>contactsSubmissionPositive</b><br>Test class: com.planit.selenium.tests.JupiterContactsTest<br>Parameters: {contactObj=com.planit.selenium.pojos.Contact@458031da}</td>
-<td></td>
-<td>5</td>
-<td>com.planit.selenium.tests.JupiterContactsTest@5fdcaa40</td></tr>
-<tr>
-<td title='com.planit.selenium.tests.JupiterShoppingCartTest.shoppingCartTest()'><b>shoppingCartTest</b><br>Test class: com.planit.selenium.tests.JupiterShoppingCartTest<br>Parameters: [com.planit.selenium.pojos.Product@bc0f53b, com.planit.selenium.pojos.Product@8d7b252, com.planit.selenium.pojos.Product@4682eba5]</td>
-<td></td>
-<td>5</td>
+<td>4</td>
 <td>com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e</td></tr>
 </table><p>
 </body>

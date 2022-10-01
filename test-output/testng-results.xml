@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-01T19:25:03 AEST" name="Suite1" finished-at="2022-10-01T19:27:16 AEST" duration-ms="132612">
+  <suite started-at="2022-10-01T19:42:07 AEST" name="Suite1" finished-at="2022-10-01T19:45:36 AEST" duration-ms="209334">
     <groups>
     </groups>
-    <test started-at="2022-10-01T19:25:03 AEST" name="Chrome" finished-at="2022-10-01T19:25:58 AEST" duration-ms="54563">
+    <test started-at="2022-10-01T19:42:07 AEST" name="Chrome" finished-at="2022-10-01T19:43:50 AEST" duration-ms="103379">
       <class name="com.planit.selenium.tests.JupiterShoppingCartTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:25:03 AEST" name="startDriver" finished-at="2022-10-01T19:25:04 AEST" duration-ms="1326" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:42:07 AEST" name="startDriver" finished-at="2022-10-01T19:42:10 AEST" duration-ms="3513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,18 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:25:04 AEST" name="shoppingCartTest" data-provider="productsData" finished-at="2022-10-01T19:25:10 AEST" duration-ms="5481" status="PASS">
+        <test-method signature="shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:42:10 AEST" name="shoppingCartTest" data-provider="productsData" finished-at="2022-10-01T19:42:15 AEST" duration-ms="4200" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[com.planit.selenium.pojos.Product@bc0f53b, com.planit.selenium.pojos.Product@8d7b252, com.planit.selenium.pojos.Product@4682eba5]]]>
+                <![CDATA[[com.planit.selenium.pojos.Product@1aac188d, com.planit.selenium.pojos.Product@7026b7ee, com.planit.selenium.pojos.Product@2d23faef]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingCartTest -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:25:10 AEST" name="quitDriver" finished-at="2022-10-01T19:25:10 AEST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@15ff3e9e]" started-at="2022-10-01T19:42:15 AEST" name="quitDriver" finished-at="2022-10-01T19:42:15 AEST" duration-ms="397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- com.planit.selenium.tests.JupiterShoppingCartTest -->
       <class name="com.planit.selenium.tests.JupiterContactsTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:10 AEST" name="startDriver" finished-at="2022-10-01T19:25:11 AEST" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:15 AEST" name="startDriver" finished-at="2022-10-01T19:42:16 AEST" duration-ms="808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,18 +58,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionE2E(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:11 AEST" name="contactsSubmissionE2E" data-provider="submissionDataOne" finished-at="2022-10-01T19:25:18 AEST" duration-ms="7631" status="PASS">
+        <test-method signature="contactsSubmissionE2E(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:16 AEST" name="contactsSubmissionE2E" data-provider="submissionDataOne" finished-at="2022-10-01T19:42:23 AEST" duration-ms="7390" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@46349b95}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@67f77f6e}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionE2E -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:18 AEST" name="quitDriver" finished-at="2022-10-01T19:25:19 AEST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:23 AEST" name="quitDriver" finished-at="2022-10-01T19:42:24 AEST" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:19 AEST" name="startDriver" finished-at="2022-10-01T19:25:20 AEST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:24 AEST" name="startDriver" finished-at="2022-10-01T19:42:24 AEST" duration-ms="714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,18 +96,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:20 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:25:28 AEST" duration-ms="8338" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:24 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:42:36 AEST" duration-ms="11916" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@7161457}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@168ad26f}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:28 AEST" name="quitDriver" finished-at="2022-10-01T19:25:28 AEST" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:36 AEST" name="quitDriver" finished-at="2022-10-01T19:42:37 AEST" duration-ms="414" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:28 AEST" name="startDriver" finished-at="2022-10-01T19:25:29 AEST" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:37 AEST" name="startDriver" finished-at="2022-10-01T19:42:37 AEST" duration-ms="655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,18 +134,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:29 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:25:36 AEST" duration-ms="7489" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:37 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:42:56 AEST" duration-ms="18277" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@5d05f453}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@4168f3d9}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:36 AEST" name="quitDriver" finished-at="2022-10-01T19:25:37 AEST" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:56 AEST" name="quitDriver" finished-at="2022-10-01T19:42:56 AEST" duration-ms="415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,7 +161,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:37 AEST" name="startDriver" finished-at="2022-10-01T19:25:38 AEST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:56 AEST" name="startDriver" finished-at="2022-10-01T19:42:57 AEST" duration-ms="669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,18 +172,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:38 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:25:43 AEST" duration-ms="5410" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:42:57 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:43:05 AEST" duration-ms="8253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@6f85ee02}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@6bcdd6e4}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:43 AEST" name="quitDriver" finished-at="2022-10-01T19:25:43 AEST" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:05 AEST" name="quitDriver" finished-at="2022-10-01T19:43:05 AEST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:43 AEST" name="startDriver" finished-at="2022-10-01T19:25:44 AEST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:05 AEST" name="startDriver" finished-at="2022-10-01T19:43:06 AEST" duration-ms="682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,18 +210,70 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:44 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:25:51 AEST" duration-ms="6785" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:06 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:43:40 AEST" duration-ms="33905" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@458031da}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@141aba65}]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for invisibility of all elements [[[ChromeDriver: chrome on WINDOWS (d3ef0d9b8e1075bca85e693e808bc1d0)] -> xpath: //div[@class='popup modal hide ng-scope in']]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-D48PB34H', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\rarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59308/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3ef0d9b8e1075bca85e693e808bc1d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of all elements [[[ChromeDriver: chrome on WINDOWS (d3ef0d9b8e1075bca85e693e808bc1d0)] -> xpath: //div[@class='popup modal hide ng-scope in']]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-D48PB34H', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\rarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59308/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3ef0d9b8e1075bca85e693e808bc1d0
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.planit.selenium.base.BasePage.waitForOverlaysToDisappear(BasePage.java:31)
+at com.planit.selenium.pages.ContactsPage.getContactsSuccessMessage(ContactsPage.java:72)
+at com.planit.selenium.tests.JupiterContactsTest.contactsSubmissionPositive(JupiterContactsTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:51 AEST" name="quitDriver" finished-at="2022-10-01T19:25:51 AEST" duration-ms="394" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:40 AEST" name="quitDriver" finished-at="2022-10-01T19:43:41 AEST" duration-ms="827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,14 +282,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=contactsSubmissionPositive status=SUCCESS method=JupiterContactsTest.contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40] output={null}]]]>
+                <![CDATA[[TestResult name=contactsSubmissionPositive status=FAILURE method=JupiterContactsTest.contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:51 AEST" name="startDriver" finished-at="2022-10-01T19:25:52 AEST" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:41 AEST" name="startDriver" finished-at="2022-10-01T19:43:41 AEST" duration-ms="672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,18 +300,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:52 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:25:57 AEST" duration-ms="5234" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:41 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:43:50 AEST" duration-ms="8428" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@458031da}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@141aba65}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:25:57 AEST" name="quitDriver" finished-at="2022-10-01T19:25:58 AEST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@5fdcaa40]" started-at="2022-10-01T19:43:50 AEST" name="quitDriver" finished-at="2022-10-01T19:43:50 AEST" duration-ms="387" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,9 +329,9 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- com.planit.selenium.tests.JupiterContactsTest -->
     </test> <!-- Chrome -->
-    <test started-at="2022-10-01T19:25:58 AEST" name="Firefox" finished-at="2022-10-01T19:27:16 AEST" duration-ms="78049">
+    <test started-at="2022-10-01T19:43:50 AEST" name="Firefox" finished-at="2022-10-01T19:45:36 AEST" duration-ms="105941">
       <class name="com.planit.selenium.tests.JupiterShoppingCartTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:25:58 AEST" name="startDriver" finished-at="2022-10-01T19:25:59 AEST" duration-ms="1756" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:43:50 AEST" name="startDriver" finished-at="2022-10-01T19:43:54 AEST" duration-ms="4214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,18 +342,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:25:59 AEST" name="shoppingCartTest" data-provider="productsData" finished-at="2022-10-01T19:26:05 AEST" duration-ms="5993" status="PASS">
+        <test-method signature="shoppingCartTest(java.util.List)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:43:54 AEST" name="shoppingCartTest" data-provider="productsData" finished-at="2022-10-01T19:44:04 AEST" duration-ms="9162" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[com.planit.selenium.pojos.Product@5bb7a59, com.planit.selenium.pojos.Product@4bfa5eb9, com.planit.selenium.pojos.Product@2a2b7a35]]]>
+                <![CDATA[[com.planit.selenium.pojos.Product@4f4d05b3, com.planit.selenium.pojos.Product@2bd4780c, com.planit.selenium.pojos.Product@2c154508]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoppingCartTest -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:26:05 AEST" name="quitDriver" finished-at="2022-10-01T19:26:06 AEST" duration-ms="803" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterShoppingCartTest@515aebb0]" started-at="2022-10-01T19:44:04 AEST" name="quitDriver" finished-at="2022-10-01T19:44:05 AEST" duration-ms="1009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +371,7 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- com.planit.selenium.tests.JupiterShoppingCartTest -->
       <class name="com.planit.selenium.tests.JupiterContactsTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:06 AEST" name="startDriver" finished-at="2022-10-01T19:26:08 AEST" duration-ms="1654" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:05 AEST" name="startDriver" finished-at="2022-10-01T19:44:06 AEST" duration-ms="1672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,18 +382,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionE2E(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:08 AEST" name="contactsSubmissionE2E" data-provider="submissionDataOne" finished-at="2022-10-01T19:26:19 AEST" duration-ms="11196" status="PASS">
+        <test-method signature="contactsSubmissionE2E(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:06 AEST" name="contactsSubmissionE2E" data-provider="submissionDataOne" finished-at="2022-10-01T19:44:14 AEST" duration-ms="7643" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@7b79ff1c}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@71df5f30}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionE2E -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:19 AEST" name="quitDriver" finished-at="2022-10-01T19:26:20 AEST" duration-ms="852" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:14 AEST" name="quitDriver" finished-at="2022-10-01T19:44:15 AEST" duration-ms="933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +409,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:20 AEST" name="startDriver" finished-at="2022-10-01T19:26:21 AEST" duration-ms="1525" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:15 AEST" name="startDriver" finished-at="2022-10-01T19:44:17 AEST" duration-ms="2319" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -368,18 +420,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:21 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:26:33 AEST" duration-ms="11419" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:17 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:44:35 AEST" duration-ms="18036" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@4c6fc3e7}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@91a1005}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:33 AEST" name="quitDriver" finished-at="2022-10-01T19:26:34 AEST" duration-ms="881" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:35 AEST" name="quitDriver" finished-at="2022-10-01T19:44:36 AEST" duration-ms="1104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -395,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:34 AEST" name="startDriver" finished-at="2022-10-01T19:26:35 AEST" duration-ms="1726" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:36 AEST" name="startDriver" finished-at="2022-10-01T19:44:38 AEST" duration-ms="1756" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -406,18 +458,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:35 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:26:42 AEST" duration-ms="6401" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:38 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:44:43 AEST" duration-ms="5285" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@521c67f0}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@4ac0d49}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:42 AEST" name="quitDriver" finished-at="2022-10-01T19:26:43 AEST" duration-ms="809" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:43 AEST" name="quitDriver" finished-at="2022-10-01T19:44:44 AEST" duration-ms="815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -433,7 +485,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:43 AEST" name="startDriver" finished-at="2022-10-01T19:26:44 AEST" duration-ms="1532" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:44 AEST" name="startDriver" finished-at="2022-10-01T19:44:46 AEST" duration-ms="1571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -444,18 +496,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:44 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:26:51 AEST" duration-ms="7254" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:44:46 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:45:14 AEST" duration-ms="28088" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@306c9b2c}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@766db6f9}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:51 AEST" name="quitDriver" finished-at="2022-10-01T19:26:52 AEST" duration-ms="820" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:14 AEST" name="quitDriver" finished-at="2022-10-01T19:45:15 AEST" duration-ms="1047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -471,7 +523,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:52 AEST" name="startDriver" finished-at="2022-10-01T19:26:54 AEST" duration-ms="1616" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:15 AEST" name="startDriver" finished-at="2022-10-01T19:45:17 AEST" duration-ms="1698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -482,18 +534,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:26:54 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:27:04 AEST" duration-ms="10403" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:17 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:45:23 AEST" duration-ms="6243" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@323c6f9c}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@4b45c8e4}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:27:04 AEST" name="quitDriver" finished-at="2022-10-01T19:27:05 AEST" duration-ms="949" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:23 AEST" name="quitDriver" finished-at="2022-10-01T19:45:24 AEST" duration-ms="905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -509,7 +561,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:27:05 AEST" name="startDriver" finished-at="2022-10-01T19:27:07 AEST" duration-ms="1558" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:24 AEST" name="startDriver" finished-at="2022-10-01T19:45:25 AEST" duration-ms="1567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -520,18 +572,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:27:07 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:27:15 AEST" duration-ms="8022" status="PASS">
+        <test-method signature="contactsSubmissionPositive(java.util.HashMap)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:25 AEST" name="contactsSubmissionPositive" data-provider="submissionData" finished-at="2022-10-01T19:45:35 AEST" duration-ms="9962" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@323c6f9c}]]>
+                <![CDATA[{contactObj=com.planit.selenium.pojos.Contact@4b45c8e4}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactsSubmissionPositive -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:27:15 AEST" name="quitDriver" finished-at="2022-10-01T19:27:16 AEST" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String, org.testng.ITestResult)[pri:0, instance:com.planit.selenium.tests.JupiterContactsTest@dd8ba08]" started-at="2022-10-01T19:45:35 AEST" name="quitDriver" finished-at="2022-10-01T19:45:36 AEST" duration-ms="909" status="PASS">
           <params>
             <param index="0">
               <value>

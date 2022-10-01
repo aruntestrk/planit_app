@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import com.plaint.selenium.pages.CartPage;
-import com.plaint.selenium.pages.ContactsPage;
-import com.plaint.selenium.pages.ShopPage;
-import com.planit.seleniium.base.BasePage;
+import com.planit.selenium.base.BasePage;
+import com.planit.selenium.pages.CartPage;
+import com.planit.selenium.pages.ContactsPage;
+import com.planit.selenium.pages.ShopPage;
 
 public class Navigations extends BasePage {
 

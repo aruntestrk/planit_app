@@ -10,11 +10,11 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.plaint.selenium.pages.CartPage;
-import com.plaint.selenium.pages.JupiterHomePage;
-import com.plaint.selenium.pages.ShopPage;
-import com.planit.seleniium.base.BaseTest;
+import com.planit.selenium.base.BaseTest;
 import com.planit.selenium.page.components.Navigations;
+import com.planit.selenium.pages.CartPage;
+import com.planit.selenium.pages.JupiterHomePage;
+import com.planit.selenium.pages.ShopPage;
 import com.planit.selenium.pojos.Product;
 
 public class JupiterShoppingCartTest extends BaseTest {
